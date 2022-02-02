@@ -1,3 +1,4 @@
+/* Set standard theme across pages */
 body {
   background-color:#bdc3c7;
 }
@@ -10,6 +11,7 @@ h2 {
   color:#ecf0f1;
 }
 
+/* Home page */
 img {
   display:block;
   margin-left: auto;
@@ -36,4 +38,12 @@ img {
 .togo {
   color: #bdc3c7;
   background-color:rgb(112, 20, 10);
+}
+
+/* secondary recipe pages */
+
+ul,
+ol {
+  text-align: left;
+  font-weight: bold;
 }
