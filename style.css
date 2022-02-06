@@ -3,6 +3,13 @@ body {
   background-color:#bdc3c7;
 }
 
+.title {
+  border: 2px solid red;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #34495e;
+}
+
 h1,
 h2 {
   text-align: center;
@@ -25,25 +32,34 @@ img {
   font-weight: bold;
 }
 
-.truffoni {
-  color: #bdc3c7;
-  background-color: salmon;
-}
-
-.home {
-  color: #bdc3c7;
-  background-color:rgb(196, 70, 56)
-}
-
-.togo {
-  color: #bdc3c7;
-  background-color:rgb(112, 20, 10);
-}
-
 /* secondary recipe pages */
 
 ul,
 ol {
   text-align: left;
   font-weight: bold;
+}
+/* still figuring out positioning,  */
+
+ul {
+  list-style-type: none;
+  margin: 0, auto;
+  position: relative;
+
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid red;
+}
+
+li {
+  display: inline-block;
+  border: 2px solid black;
+}
+
+
+li a {
+ display: block;
+ padding: 8px;
+ background-color:#dddddd;
+
 }
